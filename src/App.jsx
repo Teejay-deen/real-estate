@@ -12,7 +12,6 @@ import BecomeAgent from './pages/BecomeAgent'
 import ContactUs from './pages/ContactUs'
 
 
-
 const App = () => {
   return (
     
