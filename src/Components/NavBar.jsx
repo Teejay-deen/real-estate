@@ -8,7 +8,7 @@ const NavBar = () => {
         <h1 className="font-bold text-sm sm:text-xl flex flex-wrap">
           <Link to="/">
             <span className="text-blue-500">FHandP</span>
-            <span className="text-blue-700">Realtor</span>
+            <span className="text-blue-700">Logo</span>
           </Link>
         </h1>
 
