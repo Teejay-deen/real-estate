@@ -1,5 +1,5 @@
 import express from 'express';
-<<<<<<< HEAD
+
 import mongoose from 'mongoose';
 import dotenv from "dotenv"
 dotenv.config();
@@ -9,8 +9,7 @@ mongoose.connect(process.env.MONGO).then(res=>{
 }).catch(err=>{
     console.log(err)
 })
-=======
->>>>>>> 226582063a87a893e0f51795f258c274734e44cd
+
 
 const app = express();
 
