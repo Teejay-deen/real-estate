@@ -10,6 +10,8 @@ import Blog from './pages/Blog'
 import Faq from './pages/Faq'
 import BecomeAgent from './pages/BecomeAgent'
 import ContactUs from './pages/ContactUs'
+import Privacy from './pages/Privacy'
+import TermOfServices from './TermOfServices'
 
 
 const App = () => {
@@ -27,6 +29,9 @@ const App = () => {
         <Route path='/faq' element={<Faq />}/>
         <Route path='/become-agent' element={<BecomeAgent />}/>
         <Route path='/contact-us' element={<ContactUs />}/>
+        <Route path='/privacy-policies' element={<Privacy />}/>
+        <Route path='/term-of-services' element={<TermOfServices />}/>
+
       </Routes>
     </BrowserRouter>
   )

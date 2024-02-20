@@ -1,0 +1,16 @@
+<svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="solar:user-bold">
+<path id="Vector" d="M8.50033 7.08366C10.0651 7.08366 11.3337 5.81513 11.3337 4.25033C11.3337 2.68552 10.0651 1.41699 8.50033 1.41699C6.93552 1.41699 5.66699 2.68552 5.66699 4.25033C5.66699 5.81513 6.93552 7.08366 8.50033 7.08366Z" fill="url(#paint0_linear_479_4309)"/>
+<path id="Vector_2" d="M14.1663 12.3955C14.1663 14.1557 14.1663 15.583 8.49967 15.583C2.83301 15.583 2.83301 14.1557 2.83301 12.3955C2.83301 10.6353 5.37026 9.20801 8.49967 9.20801C11.6291 9.20801 14.1663 10.6353 14.1663 12.3955Z" fill="url(#paint1_linear_479_4309)"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_479_4309" x1="4.05199" y1="2.80533" x2="11.3337" y2="5.75199" gradientUnits="userSpaceOnUse">
+<stop stop-color="#3456A3"/>
+<stop offset="1" stop-color="#182848"/>
+</linearGradient>
+<linearGradient id="paint1_linear_479_4309" x1="-0.396992" y1="10.7699" x2="10.7711" y2="18.8043" gradientUnits="userSpaceOnUse">
+<stop stop-color="#3456A3"/>
+<stop offset="1" stop-color="#182848"/>
+</linearGradient>
+</defs>
+</svg>
