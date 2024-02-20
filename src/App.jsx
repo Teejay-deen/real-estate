@@ -12,6 +12,7 @@ import BecomeAgent from './pages/BecomeAgent'
 import ContactUs from './pages/ContactUs'
 import Privacy from './pages/Privacy'
 import TermOfServices from './TermOfServices'
+import ForgotPassword from './pages/ForgotPassword'
 
 
 const App = () => {
@@ -31,6 +32,7 @@ const App = () => {
         <Route path='/contact-us' element={<ContactUs />}/>
         <Route path='/privacy-policies' element={<Privacy />}/>
         <Route path='/term-of-services' element={<TermOfServices />}/>
+        <Route path='/forgot-password' element={<ForgotPassword />}/>
 
       </Routes>
     </BrowserRouter>

@@ -13,7 +13,7 @@ const SignUp = () => {
   };
 
   return (
-    <div  >
+    // <div style={{backgroundImage: `url(${onBoard1})`} } className="w-100 h-100">
       <div className="p-7 max-w-lg mx-auto ">
         <h1 className="text-3xl text-center font-semibold my-7">Sign up</h1>
         <span className=" my-7 font-semibold mt-2 text-center">
@@ -83,7 +83,7 @@ const SignUp = () => {
           </Link>
         </div>
       </div>
-    </div>
+    // </div>
   );
 };
 

@@ -1,9 +1,38 @@
-import React from 'react'
+import React from "react";
+import { Link } from "react-router-dom";
 
 const SignIn = () => {
   return (
-    <div>SignIn</div>
-  )
-}
+    <div className='className="p-7 max-w-lg mx-auto '>
+      <h1 className="text-3xl text-center font-semibold my-7">Sign in</h1>
+      <span className=" my-7 font-semibold mt-2 text-center">
+        Fill in the information below to get started
+      </span>
 
-export default SignIn
+      <form action="" className="flex flex-col gap-3">
+        <input
+          type="text"
+          placeholder="Email/Username"
+          id="fName"
+          className="border p-3 rounded-lg"
+        />
+        <input
+          type="text"
+          placeholder="Password"
+          id="Password"
+          className="border p-3 rounded-lg"
+        />
+        <Link to="/forgot-password">
+        <span className="flex justify-end text-blue-500 cursor-pointer"> Forgot Password</span>
+        </Link>
+        <Link to="/Home" className="bg-slate-700 p-3 mt-3 text-center text-white rounded-lg hover:opacity-90">
+          <button>
+            Sign In
+          </button>
+        </Link>
+      </form>
+    </div>
+  );
+};
+
+export default SignIn;
