@@ -23,13 +23,14 @@ const SignIn = () => {
           className="border p-3 rounded-lg"
         />
         <Link to="/forgot-password">
-        <span className="flex justify-end text-blue-500 cursor-pointer"> Forgot Password</span>
+        <span className="flex justify-end text-blue-500 cursor-pointer">Forgot Password</span>
         </Link>
-        <Link to="/Home" className="bg-slate-700 p-3 mt-3 text-center text-white rounded-lg hover:opacity-90">
+        <Link to="/Home" className="bg-slate-700 p-3 mt-1 text-center text-white rounded-lg hover:opacity-90">
           <button>
-            Sign In
+            CONTINUE
           </button>
         </Link>
+      <span className="text-center mt-3">Don't have an account? <Link to="/sign-up"><span className="text-blue-600">Sign Up</span></Link></span>
       </form>
     </div>
   );
