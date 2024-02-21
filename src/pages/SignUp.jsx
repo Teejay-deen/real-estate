@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import onBoard1 from "../assets/images/onboard1.png";
+import Logo from "../assets/images/logo_white.png";
 
 const SignUp = () => {
   const [formData, setFormData] = useState({});
@@ -13,8 +14,15 @@ const SignUp = () => {
   };
 
   return (
-    // <div style={{backgroundImage: `url(${onBoard1})`} } className="w-100 h-100">
-      <div className="p-7 max-w-lg mx-auto ">
+    <div
+      style={{ backgroundImage: `url(${onBoard1})`}}
+      className="w-full h-full bg-no-repeat bg-cover bg-center"
+    >
+      <div className="flex justify-between">
+        {" "}
+        <img src={Logo} alt="" />
+      </div>
+      <div className="p-7 justify-end max-w-lg mx-auto shadow-lg bg-white rounded-lg">
         <h1 className="text-3xl text-center font-semibold my-7">Sign up</h1>
         <span className=" my-7 font-semibold mt-2 text-center">
           Fill in the information below to get started
@@ -29,7 +37,7 @@ const SignUp = () => {
           />
           <input
             type="text"
-            placeholder="Lasr name"
+            placeholder="Last name"
             id="lName"
             className="border p-3 rounded-lg"
             onChange={handleChange}
@@ -83,7 +91,8 @@ const SignUp = () => {
           </Link>
         </div>
       </div>
-    // </div>
+      //{" "}
+    </div>
   );
 };
 
