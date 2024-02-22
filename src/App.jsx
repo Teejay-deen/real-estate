@@ -17,7 +17,6 @@ import ForgotPassword from './pages/ForgotPassword'
 
 const App = () => {
   return (
-    
     <BrowserRouter>
     <NavBar />
       <Routes>

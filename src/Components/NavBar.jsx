@@ -32,7 +32,7 @@ const NavBar = () => {
               className="hidden sm:inline hover:underline font-bold
             "
             >
-              Blog
+              Our Blog
             </li>
           </Link>
 
@@ -68,7 +68,7 @@ const NavBar = () => {
               className="sm:inline hover:underline font-bold
              "
             >
-              Sign In
+          <button className="">Sign in</button>
             </li>
           </Link>
         </ul>
