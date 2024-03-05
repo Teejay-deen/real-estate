@@ -9,7 +9,7 @@ const SignIn = () => {
         Fill in the information below to get started
       </span>
 
-      <form action="" className="flex flex-col gap-3">
+      <form action="" className="flex flex-col gap-2">
         <input
           type="text"
           placeholder="Email/Username"
